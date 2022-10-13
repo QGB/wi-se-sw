@@ -72,6 +72,7 @@ const devConfig =  {
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
+		host: '0.0.0.0',//qgb
         port: 9000,
         proxy: [{
             context: ['/token', '/ws'],

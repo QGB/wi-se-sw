@@ -113,14 +113,15 @@ uart:
 #
 wifi:
   # Wi-Fi mode. One of WIFI_STA (client mode), WIFI_AP (access point/hotspot)
-  mode: WIFI_AP
+  mode: WIFI_STA
+  #mode: WIFI_AP
   # Network name
   # In AP mode it can be omitted or set to null, in which case it will be automatically generated.
   # In STA mode it must be specified.
-  ssid: null
-  password: "ChangeMeASAP"
+  ssid: "616"
+  password: "15111438298"
   # Device hostname - customize
-  hostname: "Wi-Se"
+  hostname: "Wi-Se-example"
 
   # AP specific configuration
   ap:

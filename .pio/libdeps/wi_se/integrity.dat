@@ -1,0 +1,3 @@
+ESP8266WiFi
+ESP Async WebServer=https://github.com/Depau/ESPAsyncWebServer/archive/wi-se-patches.zip
+ArduinoJson
